@@ -1,3 +1,12 @@
+#
+# Generate Markdown documentation from Java files in a directory.
+# The generated documentation will be saved in a separate directory.
+# The output directory will contain an index file with links to all generated documentation.
+#
+# Author: William
+# Date: 2024-12-24
+# License: MIT  
+
 from argparse import ArgumentParser, Namespace
 from pathlib import Path
 from typing import Optional
