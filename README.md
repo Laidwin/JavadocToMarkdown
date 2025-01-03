@@ -22,15 +22,15 @@ A Python tool that converts Javadoc comments into Markdown documentation.
 ### Command Line
 
 ```bash
-python process_java_docs.py /path/to/your/java/files
+python JavaDocsProcessor.py /path/to/your/java/files
 # Optional: specify output directory
-python process_java_docs.py /path/to/your/java/files -o /path/to/output
+python JavaDocsProcessor.py /path/to/your/java/files -o /path/to/output
 ```
 
 ### Python Code
 
 ```python
-from java_docs_processor import JavaDocsProcessor
+from JavaDocsProcessor import JavaDocsProcessor
 
 # Initialize processor
 processor = JavaDocsProcessor("/path/to/your/java/files")
